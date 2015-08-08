@@ -17,7 +17,7 @@ Put just an extra $100 a month towards your loans and see how much time and inte
 How to run locally:
 Install *nodejs.org*
 
-run following in node.js command prompt...
+run following in node.js command prompt where package.json exists...
 npm install 
 
 That should of installed all the dependencies for the app to run, however if you run into a problem you can do it the manual way:
