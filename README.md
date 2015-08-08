@@ -18,6 +18,10 @@ How to run locally:
 Install *nodejs.org*
 
 run following in node.js command prompt...
+npm install 
+
+That should of installed all the dependencies for the app to run, however if you run into a problem you can do it the manual way:
+
 npm install express 
 npm install server-favicon
 npm install morgan
@@ -28,6 +32,5 @@ npm install jade
 
 in the app directory run the following:
 node app.js
-
 Then check link with favorite browser *http://localhost:3000/*
 
