@@ -1,0 +1,26 @@
+{
+  "name": "unbury.us",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mjrouser/unbury.us",
+  "authors": [
+    "mjrouser <matthew@mjrouser.com>"
+  ],
+  "description": "loan calulator",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3",
+    "materialize": "~0.97.0"
+  }
+}
