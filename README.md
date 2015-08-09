@@ -11,3 +11,26 @@ The order of which loans are paid off first is either highest-to-lowest interest
 Put just an extra $100 a month towards your loans and see how much time and interest paid you save!
 
 *unbury.us* is a loan calculator forked by [Sean Freiburg](http://www.seanfreiburg.com) from unbury.me by Jordan Santell. Source code is licensed under the [MIT License](http://opensource.org/licenses/mit-license.php).
+
+# Contribute
+
+How to run locally:
+Install *nodejs.org*
+
+run following in node.js command prompt where package.json exists...
+npm install 
+
+That should of installed all the dependencies for the app to run, however if you run into a problem you can do it the manual way:
+
+npm install express 
+npm install server-favicon
+npm install morgan
+npm install cookie-parser
+npm install body-parser
+npm install debug
+npm install jade
+
+in the app directory run the following:
+node app.js
+Then check link with favorite browser *http://localhost:3000/*
+
