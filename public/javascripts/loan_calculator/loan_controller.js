@@ -66,7 +66,20 @@ LoanController.hashString = function () {
 };
 
 LoanController.add_test_data = function () {
-    alert("hello");
+    window.auto_increment += 1;
+    var id = window.auto_increment;
+    var source = $("#loan-input-template").html();
+    var template = Handlebars.compile(source);
+    var context = {id: id};
+    var html = template(context);
+    var test_data = test_data_loans.loans
+    console.log("In loan controller");
+    console.log(test_data);
+    $("#loan-inputs").append(html);
+    $("#loan" + id).hide().fadeIn('500');
+    window.loans[id] = new Loan(id, 0, 0, 0, 0);
+    Router.add_loan_destroy_listener(id);
+    Router.add_loan_input_listeners(id);
 };
 
 
