@@ -1,0 +1,12 @@
+var express = require('express');
+var router = express.Router();
+var loans = require('../loans.json');
+
+router.get('/', function(req, res, next){
+	console.log(loans);
+	res.render("index",{
+		test_data: loans
+	});
+})
+
+module.exports = router;

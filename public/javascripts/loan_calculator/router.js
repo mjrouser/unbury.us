@@ -10,6 +10,10 @@ Router.init = function () {
         LoanController.add_loan();
     });
 
+    $("#add-test-data").click(function () {
+        LoanController.add_test_data();
+    });
+
     $("#avalanche-btn").click(function () {
         ApplicationController.changePaymentType(this);
         ApplicationController.auto_calculate();

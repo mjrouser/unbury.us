@@ -1,79 +1,81 @@
-{"loans":[{
-	"start-date":"4/20/2012",
-	"starting-balance": "3,700.36",
-	"remaining-balance": "3,167.2",
-	"minimum-payment": "46.47",
-	"apr":"5.8"
-	},
-	{	
-	"start-date":"4/20/2012",
-	"starting-balance": "$1,487.33",
-	"remaining-balance": "$1,272.95",
-	"minimum-payment": "$18.68",
-	"apr":"5.8"
-	},
-	{
-	"start-date":"4/20/2012",
-	"starting-balance": "4,226.54",
-	"remaining-balance": "3,617.53",
-	"minimum-payment": "53.08",
-	"apr":"5.8"
-	},
-	{
-	"start-date":"4/20/2012",
-	"starting-balance": "392.56",
-	"remaining-balance": "335.93",
-	"minimum-payment": "4.93",
-	"apr":"5.8"
-	},
-	{
-	"start-date":"4/20/2012",
-	"starting-balance": "2,357.17",
-	"remaining-balance": "2,357.17",
-	"minimum-payment": "28.98",
-	"apr":".86"
-	},
-	{
-	"start-date":"10/6/2009",
-	"starting-balance": "4,167.19",
-	"remaining-balance": "",
-	"minimum-payment": "",
-	"apr":""
-	},
-	{
-	"start-date":"4/20/2012",
-	"starting-balance": "4,167.19",
-	"remaining-balance": "60.34",
-	"minimum-payment": "5.35",
-	"apr":""
-	},
-	{
-	"start-date":"10/6/2009",
-	"starting-balance": "2,000",
-	"remaining-balance": "1,631.14",
-	"minimum-payment": "24.59",
-	"apr":"6.55"
-	},
-	{
-	"start-date":"12/3/2008",
-	"starting-balance": "4,521",
-	"remaining-balance": "3,440.73",
-	"minimum-payment": "50.51",
-	"apr":"5.75"
-	},
-	{
-	"start-date":"12/3/2008",
-	"starting-balance": "979",
-	"remaining-balance": "843.6",
-	"minimum-payment": "12.72",
-	"apr":"6.55"
-	},
-	{
-	"start-date":"12/3/2008",
-	"starting-balance": "2,000",
-	"remaining-balance": "1,723.5",
-	"minimum-payment": "25.99",
-	"apr":"6.55"
-	}
-]}
-
+{
+  "loans": [
+    {
+      "start-date": "4/20/2012",
+      "starting-balance": "3,700.36",
+      "remaining-balance": "3,167.2",
+      "minimum-payment": "46.47",
+      "apr": "5.8"
+    },
+    {
+      "start-date": "4/20/2012",
+      "starting-balance": "$1,487.33",
+      "remaining-balance": "$1,272.95",
+      "minimum-payment": "$18.68",
+      "apr": "5.8"
+    },
+    {
+      "start-date": "4/20/2012",
+      "starting-balance": "4,226.54",
+      "remaining-balance": "3,617.53",
+      "minimum-payment": "53.08",
+      "apr": "5.8"
+    },
+    {
+      "start-date": "4/20/2012",
+      "starting-balance": "392.56",
+      "remaining-balance": "335.93",
+      "minimum-payment": "4.93",
+      "apr": "5.8"
+    },
+    {
+      "start-date": "4/20/2012",
+      "starting-balance": "2,357.17",
+      "remaining-balance": "2,357.17",
+      "minimum-payment": "28.98",
+      "apr": ".86"
+    },
+    {
+      "start-date": "10/6/2009",
+      "starting-balance": "4,167.19",
+      "remaining-balance": "",
+      "minimum-payment": "",
+      "apr": ""
+    },
+    {
+      "start-date": "4/20/2012",
+      "starting-balance": "4,167.19",
+      "remaining-balance": "60.34",
+      "minimum-payment": "5.35",
+      "apr": ""
+    },
+    {
+      "start-date": "10/6/2009",
+      "starting-balance": "2,000",
+      "remaining-balance": "1,631.14",
+      "minimum-payment": "24.59",
+      "apr": "6.55"
+    },
+    {
+      "start-date": "12/3/2008",
+      "starting-balance": "4,521",
+      "remaining-balance": "3,440.73",
+      "minimum-payment": "50.51",
+      "apr": "5.75"
+    },
+    {
+      "start-date": "12/3/2008",
+      "starting-balance": "979",
+      "remaining-balance": "843.6",
+      "minimum-payment": "12.72",
+      "apr": "6.55"
+    },
+    {
+      "start-date": "12/3/2008",
+      "starting-balance": "2,000",
+      "remaining-balance": "1,723.5",
+      "minimum-payment": "25.99",
+      "apr": "6.55"
+    }
+  ]
+}

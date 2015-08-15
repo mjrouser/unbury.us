@@ -65,7 +65,9 @@ LoanController.hashString = function () {
     return hashString;
 };
 
-
+LoanController.add_test_data = function () {
+    alert("hello");
+};
 
 
 
