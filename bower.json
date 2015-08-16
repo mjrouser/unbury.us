@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "homepage": "https://github.com/mjrouser/unbury.us",
   "authors": [
-    "mjrouser <matthew@mjrouser.com>"
+    "mjrouser <matthew@mjrouser.com>",
+    "powpow12 <rob_p_powell@yahoo.com>"
   ],
   "description": "loan calulator",
   "moduleType": [
