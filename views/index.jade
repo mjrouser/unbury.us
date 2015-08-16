@@ -33,7 +33,7 @@ html(lang="en")
           p(class="center").
             To view your loans later, simply copy the link in the address bar. You can paste it in to your address bar later to view your loans.
       hr
-      div#loan-inputs
+      #loan-inputs
       .row
         .col-sm-3.col-sm-offset-0
           button(class="btn btn-success btn-block", id="add-loan") + add loan
@@ -53,3 +53,17 @@ html(lang="en")
         .col-sm-2.col-sm-offset-1
             h4 &nbsp;
             button(id="calculate", class="btn btn-default btn-block") calculate
+
+      hr
+      #all-loan-results
+        #total-results
+        #loan-results
+
+      .row
+        .col-sm-3
+          a(href="http://seanfreiburg.com") seanfreiburg.com
+        .col-sm-3.col-sm-offset-5
+          #[a(href='https://github.com/seanfreiburg/unbury.us/issues', title='Report bugs') Report a Bug] \
+          #[a(href='http://github.com/seanfreiburg/unbury.us', title='Unbury.me on GitHub') GitHub] \\\
+          #[a(href='https://github.com/seanfreiburg/unbury.us/blob/master/LICENSE', title='License') MIT License] \ 
+          #[a(href='http://unbury.me', title='unbury.me') credit]
