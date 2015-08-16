@@ -12,6 +12,7 @@ LoanController.add_loan = function () {
     var html = template(context);
     $("#loan-inputs").append(html);
     $("#loan" + id).hide().fadeIn('500');
+    console.log("add loan");
     window.loans[id] = new Loan(id, 0, 0, 0, 0);
     Router.add_loan_destroy_listener(id);
     Router.add_loan_input_listeners(id);
@@ -72,9 +73,9 @@ LoanController.add_test_data = function () {
     var template = Handlebars.compile(source);
     var context = {id: id};
     var html = template(context);
-    var test_data = test_data_loans.loans
+    // var test_data = test_
     console.log("In loan controller");
-    console.log(test_data);
+    console.log(locatest_data);
     $("#loan-inputs").append(html);
     $("#loan" + id).hide().fadeIn('500');
     window.loans[id] = new Loan(id, 0, 0, 0, 0);

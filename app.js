@@ -13,6 +13,9 @@ var test = require('./routes/test');
 
 var app = express();
 
+//locals to pass json to controller
+app.locals.test_data = require('./loans.json');
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
