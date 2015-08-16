@@ -1,1 +1,23 @@
-include loan_calculator/index.html
+doctype html
+html(lang="en")
+	head
+		title= pageTitle
+		meta(name="description", content="unbury.us is an application that calculates payment plans based off of loan information to become debt free.")
+		meta(name="keywords", content="loan, loan calculator, debt free, web application, personal finance, sean freiburg, jquery")
+		meta(name="viewport", content="width=device-width", initial-scale="1")
+		link(rel="icon", href="assets/src/img/favicon.ico", type="image/x-icon")
+		link(rel="shortcut icon", href="assets/src/img/favicon.ico", type="image/x-icon")
+		link(href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css", rel="stylesheet")
+		link(href="/stylesheets/style.css", rel="stylesheet")
+	body
+		.container-fluid
+			.row
+				.col-sm-3.col-sm-offset-3
+					h1(id="title")
+					a(class="title", href="/") unbury.us
+				.col-sm-4
+					h3 get unburied from debt
+				.col-sm-2
+					a(data-toggle="modal", data-target="#helpModal", href="#") help \
+					a(data-toggle="modal", data-target="#aboutModal", href="#") about \
+					a(href="/fi_calculator") fi_calculator
